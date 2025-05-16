@@ -40,6 +40,7 @@ def versus_game():
             current_score = 0
 
             if input('\nWould you like to keep playing?').lower() == keep_playing:
+                print('\n' * 20)
                 print(art.logo)
                 random.shuffle(data)
                 random_b = random.choice(data)
